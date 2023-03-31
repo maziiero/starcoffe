@@ -1,0 +1,261 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho {
+    display:flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 0px 16px black;
+    height: 70;
+}
+img {
+    width: 80px;
+    height: 55px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+ ul > li > a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.menu > li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.menu2 {
+    display: flex;
+    align-items: center;
+}
+.menu2 > li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.botao {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius:20px ;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+}
+.botao2 {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius:20px ;
+    padding: 10px 10px;
+}
+main > img {
+    width: 1300px;
+    height: 400px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 10px;
+}
+.verde {
+    background-color: rgb(235, 117, 186);
+    width: 1300px;
+    height: 200px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+main > .verde > .butap {
+    padding: 5px 10px;
+    border: 2px solid rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    margin-top: 10px;
+}
+main > .verde > .butap:hover {
+    background-color: rgba(245, 179, 201, 0.349);
+}
+main > .segunda {
+    background-color: rgb(117, 154, 235);
+    width: 1300px;
+    height: 500px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.segunda > img {
+    justify-content: left;
+    width: 1500px;
+    height: 500px;
+}
+.textoimg {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 50px;
+}
+.textoimg > .p2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.textoimg > .botaoapp{
+    padding: 7px 14px;
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    background-color: transparent;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.textoimg > .botaoapp:hover{
+    background-color: gray;
+    padding: 4px 7px;
+    transition: 0,3px;
+    box-shadow: 0px 4px 16px grey;
+    font-size: 12px;
+}
+.textoimg2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 100px;
+    width: 600px;
+}
+.textoimg2 > .p3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.textoimg2> h2 {
+    font-family: "adelia.ttf";
+}
+.textoimg2 > .botaoapp {
+    padding: 7px 14px;
+    border: 2px solid rgb(254, 254, 254);
+    text-decoration: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.textoimg2 > .botaoapp:hover {
+    background-color: rgba(245, 179, 201, 0.349);
+    padding: 4px 7px;
+    transition: 0.3s;
+    box-shadow:0px 4px 16px rgba(245, 179, 201, 0.256);
+    font-size: 12px;
+}
+.textoimg2 > img {
+    width: 1000px;
+    height: 100px;
+}
+main > .segunda1 {
+    background-color: rgb(93, 78, 81);
+    width: 1300px;
+    height: 450px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-family: "SoDoSans-Regular.ttf";
+    color: rgb(255, 255, 255);
+}
+.segunda1 > img {
+    justify-content: right;
+    width: 530px;
+    height: 450px;
+}
+td {
+    width: 200px; height: 50px;
+}
+tr {
+    width: 100px; height: 10px;
+}
+footer {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 16px black;
+    justify-content: center;
+    align-items: center;
+    font-family: "SoDoSans-Regular.ttf";
+}
+th {
+    margin-top: 100px;
+    margin-left: 0;
+}
+.titulo {
+    color: #000;
+
+}
+td > a {
+    text-decoration: none;
+    color: #676767;
+}
+td > a:hover {
+    color: #000;
+}
+.icons {
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.icone {
+    margin-right: 20px;
+}
+.icone:hover {
+    width: 45px;
+    height: 45px;
+    transition: 0.5s;
+}
+.icons > a {
+    text-decoration: none ;
+}
+.um {
+    margin-left: 200px;
+}
+.yu > a {
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 70px;
+}
+.yu > a:hover {
+    color: #777777;
+}
+.bb {
+    margin-left: 200px;
+    color: #777777;
+    margin-top: 50px;
+}
